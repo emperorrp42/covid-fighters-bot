@@ -16,7 +16,7 @@ class MyClient(discord.Client):
     async def on_message(self, message):
         print('Message from {0.author}: {0.content}'.format(message))
 
-gc = gspread.service_account()
+gc = gspread.service_account(filename=GSERV_ACC)
 ox_sheet = gc.open_by_key('16Ez6gDbBHtIbZRkoe3h6yG4eZeERZZEZ_LzNQ-w1lpM')
 #oxygen resources sheet of cfi, bot only a viewer^
 
