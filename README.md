@@ -13,4 +13,4 @@ A bot to help out with the 10k member+ Covid Fighters India Discord server's mut
 
 ## Invite Link
 
-Invite to your own server here- 
+Invite to your own server here- https://discord.com/api/oauth2/authorize?client_id=838791393400193025&permissions=1073835072&scope=bot
